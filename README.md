@@ -1,6 +1,5 @@
 # Mémoire
 Google Trends: Estimation des indicateurs économiques 
-
 Evgenii Molodniak 
 #
 Université Paris 1 Panthéon-Sorbonne  
