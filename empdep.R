@@ -40,7 +40,7 @@ colnames(empdep)[colnames(empdep) == 'Dep'] <- 'CodeDep'
 empdep <- merge(empdep[c("Date", "Mois", "DEFM", "CodeDep")], regcodes[c("Dep", "Reg", "CodeDep", "CodeReg")], by="CodeDep")
 ##aggregate
 empREG <- aggregate(x = empdep[c("DEFM")], by=list(Date=empdep$Date, Reg=empdep$Reg), FUN=sum)
-------------------------------------------------------------------------------------
+
 ##revision
 ###sum(empdep$DEFM[empdep$Reg == 'Auvergne' & empdep$Date == '2009-08-31']) == 
   ###empREG$DEFM[empREG$Reg == 'Auvergne' & empREG$Date == '2009-08-31']
