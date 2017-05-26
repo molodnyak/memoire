@@ -18,7 +18,7 @@ names(regcodes) <- c("CodeReg", "CodeDep", "Dep", "Reg")
 
 # Téléchargement
 
-emploi <- readHTMLTable("http://statistiques.pole-emploi.org/stmt/defm?ff=A,B,C&fh=1&lj=0&pp=200901-201702&ss=1", stringsAsFactors = FALSE)
+emploi <- readHTMLTable("http://statistiques.pole-emploi.org/stmt/defm?ff=A,B,C&fh=1&lj=0&pp=200901-201703&ss=1", stringsAsFactors = FALSE)
 empdep <- data.frame(emploi$DataTable, stringsAsFactors = FALSE)
 empdep <- empdep[, !(colnames(empdep) %in% c("Total"))]
 ##blanks/numbers
