@@ -9,4 +9,4 @@ Master 2 Politiques Publiques
 
 2016-2017 
 
-Sous la direction de Marc Arthur Diaye  
+Sous la direction de Marc Arthur Diaye
